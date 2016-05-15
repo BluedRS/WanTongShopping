@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.facebook.common.internal.Objects;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Dialog a = new Dialog(MainActivity.this);
         Toast.makeText(this,"rs",Toast.LENGTH_LONG);
-
+        Toast.makeText(this,"ssss", Toast.LENGTH_LONG);
     }
 
     @Override
